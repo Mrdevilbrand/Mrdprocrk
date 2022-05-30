@@ -409,7 +409,7 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print(" [▪]CHOOSE METHOD ")
-		print(" \033[0;93m[1]\033[0;94m File Cloning \033[0;92m>> no login")
+		print(" \033[0;93m[1]\033[0;94m File Cloning \033[0;92m >>no login")
 		print(" \033[0;93m[2] Public Cloning >>login")
 		print(" [3] Create File")
 		print(" \033[0;94m[4] 2009-10 Cloning \033[0;94m ~no login")
